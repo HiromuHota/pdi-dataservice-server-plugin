@@ -112,7 +112,7 @@
     <dependency>
       <groupId>pentaho-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
-      <version>${dependency.pentaho-kettle.version}</version>
+      <version>${dependency.webspoon.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>

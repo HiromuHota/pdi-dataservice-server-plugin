@@ -46,6 +46,10 @@
     </dependency>
     <dependency>
       <groupId>pentaho</groupId>
+      <artifactId>pentaho-platform-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>pentaho</groupId>
       <artifactId>pentaho-kettle-repository-locator-api</artifactId>
     </dependency>
     <dependency>

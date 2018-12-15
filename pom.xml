@@ -90,7 +90,6 @@
     <pentaho-mongodb-plugin.version>8.2.0.0-342</pentaho-mongodb-plugin.version>
     <webspoon.version>8.2.0.0-342-17</webspoon.version>
     <guava.version>17.0</guava.version>
-    <rap.version>3.3.0</rap.version>
     <mongo.java.driver.version>3.6.3</mongo.java.driver.version>
     <commons.collections.version>3.2.2</commons.collections.version>
     <pentaho-modeler.version>8.2.0.0-342</pentaho-modeler.version>

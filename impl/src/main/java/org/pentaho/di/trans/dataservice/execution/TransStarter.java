@@ -23,8 +23,6 @@
 package org.pentaho.di.trans.dataservice.execution;
 
 import com.google.common.base.Throwables;
-
-import org.eclipse.swt.widgets.Display;
 import org.pentaho.di.core.exception.KettleException;
 import org.pentaho.di.trans.Trans;
 
@@ -44,7 +42,6 @@ public class TransStarter implements Runnable {
 
   @Override public void run() {
     try {
-      trans.setDisplay( Display.getCurrent() );
       trans.startThreads();
     } catch ( KettleException e ) {
       throw Throwables.propagate( e );

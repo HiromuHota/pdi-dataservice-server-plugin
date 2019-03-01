@@ -1,1 +1,10 @@
 language: java
+sudo: false
+jdk: oraclejdk8
+cache:
+  directories:
+  - $HOME/.m2
+install: true
+script:
+  - wget https://raw.githubusercontent.com/pentaho/maven-parent-poms/master/maven-support-files/settings.xml
+  - mvn -s settings.xml clean source:jar package

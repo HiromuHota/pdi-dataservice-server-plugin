@@ -86,7 +86,7 @@
     <mockito.version>1.9.5</mockito.version>
     <pdi.version>8.3.0.0-371</pdi.version>
     <pentaho-mongodb-plugin.version>8.3.0.0-371</pentaho-mongodb-plugin.version>
-    <webspoon.version>8.3.0.0-371-19</webspoon.version>
+    <webspoon.version>8.3.0.0-371-20</webspoon.version>
     <guava.version>17.0</guava.version>
     <mongo.java.driver.version>3.6.3</mongo.java.driver.version>
     <commons.collections.version>3.2.2</commons.collections.version>
